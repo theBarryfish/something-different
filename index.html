@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .imgbox {
+                display: grid;
+                height: 100%;
+            }
+            .center-fit {
+                max-width: 100%;
+                max-height: 100vh;
+                margin: auto;
+            }
+        </style>
+    </head>
 <body>
 
-    <h1>The Barryfish 2023.1.14 -6</h1>
+    <h1>The Barryfish 2023.1.14 -7</h1>
     <p>Hosted with GitHub Pages.</p>
     it's not an instant update like in 1990 when I used notepad and filzilla, but it's 2023 so I git it..
-    <img width: 1024; src="PIT%20overview.jpg" alt="hack-a-pit">
-    <img width: 1024; src="/images/no%20paint.JPEG" alt="hack-a-pit">
+ 
+    <div class="imgbox">
+        <img class="center-fit" src='pic.png'>
 
+    <img class="center-fit" src="PIT%20overview.jpg" alt="hack-a-pit">
+    <img class="center-fit" src="/images/no%20paint.JPEG" alt="hack-a-pit">
+</div>
 </body>
+
 </html>
+
+
+
